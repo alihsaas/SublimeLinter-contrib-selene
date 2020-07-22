@@ -1,10 +1,14 @@
-from SublimeLinter.lint import Linter  # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
+from SublimeLinter.lint import Linter
 
 
-class __class__(Linter):
-    cmd = '__cmd__'
-    regex = r''
-    multiline = False
+class Selene(Linter):
+    cmd = 'selene --display-style=quiet ${file}'
+    regex = (
+        r'.+:(?P<line>\d+):(?P<col>\d+): '
+        r'(?:warning\[(?P<warning>.+)|error\[(?P<error>.+))\]: '
+        r'(?P<message>.+)'
+    )
+
     defaults = {
-        'selector': 'source.python'
+        'selector': 'source.lua'
     }
