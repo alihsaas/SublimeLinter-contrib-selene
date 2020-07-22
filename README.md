@@ -1,7 +1,7 @@
 SublimeLinter-contrib-selene
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-selene.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-selene)
+[![Build Status](https://travis-ci.org/alihsaas/SublimeLinter-contrib-selene.svg?branch=master)](https://travis-ci.org/alihsaas/SublimeLinter-contrib-selene)
 
 This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [selene](https://kampfkarren.github.io/selene/). It will be used with files that have the “lua” syntax.
 
