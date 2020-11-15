@@ -9,5 +9,5 @@ class Selene(Linter):
         r'(?P<message>.+)'
     )
     defaults = {
-        'selector': 'source.lua'
+        'selector': 'source.lua, source.rbxlua'
     }
