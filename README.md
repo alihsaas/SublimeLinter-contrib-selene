@@ -18,4 +18,4 @@ In order for `selene` to be executed by SublimeLinter, you must ensure that its 
 - SublimeLinter settings: http://sublimelinter.readthedocs.org/en/latest/settings.html
 - Linter settings: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html
 
-The recommended way of configuring `selene` is using [selene.toml](https://kampfkarren.github.io/selene/cli/std.html)
+The recommended way of configuring `selene` is using [selene.toml](https://kampfkarren.github.io/selene/usage/configuration.html)
